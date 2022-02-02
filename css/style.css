@@ -1,0 +1,132 @@
+*{
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    border-top: 1px solid #e4e4e4;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    line-height: 40px;
+    min-width: 980px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.navbar{
+    width: 98%;
+    border-radius: 100px;
+}
+
+.navbar a{
+    font-size: 10pt;
+}
+
+.nav img{
+    height: 35px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+
+.nav img:hover{
+    -webkit-box-shadow: 0px 0px 4px 5px rgba(175, 175, 175, 0.48);
+    box-shadow: 0px 0px 4px 5px rgba(175, 175, 175, 0.48);
+
+}
+
+.nine-dot:hover{
+    color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+.main{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.search{
+    border: 0.5px solid lightgray;
+    width: 575px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 40px;
+    padding-top: 5px;
+}
+.search-icon{
+    color: gray;
+    margin-right: 15px;
+    margin-left: -10px;
+}
+
+.search:hover{
+    -webkit-box-shadow: 0px 0px 14px 5px rgba(224,224,224,0.48); 
+    box-shadow: 0px 0px 14px 5px rgba(224,224,224,0.48);
+    border: 0.5px solid lightgray;
+    background: none;
+}
+
+input[type="text"] {
+    width: 480px;
+    height: 36px;
+    color: rgba(0,0,0,.87);
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    width: 120px;
+    margin: 11px 4px;
+    border: 1px solid #f2f2f2;
+    font-family: arial;
+    color: #5f6368;
+    font-size: 14px;
+    height: 36px;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+input[type="button"]:hover {
+    border: 1px solid #868686;
+    background-image: -webkit-linear-gradient(top,#fffbfb,#f1f1f1);
+}
+
+.footer{
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;    
+    line-height: 40px;
+    min-width: 980px;
+    padding-left: 15px;
+}
+
+.footer-bar{
+    width: 98%;
+}
